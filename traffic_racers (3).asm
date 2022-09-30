@@ -1,33 +1,6 @@
-###################################################################### 
-# CSCB58 Summer 2022 Project 
-# University of Toronto, Scarborough 
-# 
-# Student Name: Francis Ayayd, sudent Number: 1008091985, UTorID: ayyadfra
-# 
-# Bitmap Display Configuration: 
-# - Unit width in pixels: 8 (update this as needed) 
-# - Unit height in pixels: 8 (update this as needed) 
-# - Display width in pixels: 256 (update this as needed) 
-# - Display height in pixels: 256 (update this as needed) 
-# - Base Address for Display: 0x10008000 
-# 
-# Basic features that were implemented successfully 
-# - Basic feature a/b/c (choose the ones that apply)
-	# all a b and c are applied
-	 
-# 
-# Additional features that were implemented successfully 
-# - Additional feature a/b/c (choose the ones that apply) 
-	# all a b and c are applied
-#  
-# Link to the video demo 
-# - Insert YouTube/MyMedia/other URL here and make sure the video is accessible 
-# https://youtu.be/e18iq2j3fN4
-# Any additional information that the TA needs to know: 
-# - Write here, if any 
-#  Enjoy :)
-###################################################################### 
-
+#traffic_racers project:
+# a game where a car runs away from opposing cars
+# designed using MIPS Assembly
 .data
 	pos:	.word	18	
 	enemyPos: .word 45, 1 56, 1, 124, 1
